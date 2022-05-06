@@ -1,0 +1,181 @@
+:root {
+  /* accent colors */
+  --accent-color: #2196f3;
+  --white-accent: #fff;
+  --black-accent: #000;
+  --transparent-white: rgba(255, 255, 255, 0.6);
+
+  /* font colors */
+  --main-color: #212121;
+  --secondary-color: #757575;
+  /* background colors */
+  --background-btn: #f5f4fa;
+  --button-hover: #188ce8;
+  --background-grey: #2f303a;
+}
+body {
+  font-family: Roboto, sans-serif;
+  color: var(--main-color);
+  font-size: 14px;
+}
+.link {
+  text-decoration: none;
+  color: inherit;
+}
+.list {
+  list-style-type: none;
+}
+/* Header */
+.logo {
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  color: var(--accent-color);
+}
+.logo-span {
+  color: var(--black-accent);
+}
+.header-item {
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+.header-item:hover,
+.header-item:focus {
+  color: var(--accent-color);
+}
+.active {
+  color: var(--accent-color);
+}
+.header-contacts {
+  color: var(--secondary-color);
+}
+/* Hero section */
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--white-accent);
+  background-color: var(--background-grey);
+}
+.hero-btn {
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--white-accent);
+  background-color: var(--accent-color);
+  cursor: pointer;
+  border-style: none;
+}
+.hero-btn:hover,
+.hero-btn:focus {
+  background-color: var(--button-hover);
+}
+/* Benefits section */
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+.benefits-header {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.benefits-text {
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--secondary-color);
+}
+.section-header {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+/* Team section */
+.member-header {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.member-position {
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: var(--secondary-color);
+}
+/* Footer section */
+.footer {
+  background-color: var(--background-grey);
+}
+.white-span {
+  color: var(--white-accent);
+}
+.address-link {
+  font-style: normal;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--white-accent);
+}
+.address-link:hover,
+.address-link:focus {
+  color: var(--accent-color);
+}
+.footer-contacts {
+  color: var(--transparent-white);
+}
+
+/* Portfolio */
+.filter-btn {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: currentColor;
+  background-color: var(--background-btn);
+  border-style: none;
+  cursor: pointer;
+}
+.filter-btn:hover,
+.filter-btn:focus,
+.active-btn {
+  color: var(--white-accent);
+  background-color: var(--accent-color);
+}
+.card-header {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.card-text {
+  color: var(--secondary-color);
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.03em;
+}
