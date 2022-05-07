@@ -170,6 +170,9 @@ img {
   color: var(--secondary-color);
 }
 /* Work section */
+.work-section {
+  padding-top: 0;
+}
 .section-header {
   font-weight: 700;
   font-size: 36px;
