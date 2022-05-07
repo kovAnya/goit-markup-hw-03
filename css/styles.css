@@ -75,6 +75,7 @@ img {
   letter-spacing: 0.03em;
   color: var(--accent-color);
   margin-right: 93px;
+  display: inline-block;
 }
 .logo-span {
   color: var(--black-accent);
@@ -100,25 +101,25 @@ img {
 /* Hero section */
 .hero-section {
   background-color: var(--background-grey);
+  text-align: center;
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 .hero-title {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-  text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--white-accent);
   width: 696px;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto 30px;
 }
 .hero-btn {
   font-family: inherit;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
-  text-align: center;
   letter-spacing: 0.06em;
   color: var(--white-accent);
   background-color: var(--accent-color);
@@ -186,11 +187,14 @@ img {
 }
 .team-item {
   margin-right: 30px;
-  padding-bottom: 30px;
   background-color: var(--white-accent);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
 }
-.member-img {
-  margin-bottom: 30px;
+.wrapper-card {
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 .member-header {
   font-weight: 500;
@@ -216,6 +220,12 @@ img {
 }
 .white-span {
   color: var(--white-accent);
+}
+.footer .logo {
+  margin-bottom: 20px;
+}
+.footer-item:not(:last-child) {
+  padding-bottom: 9px;
 }
 .address-link {
   font-style: normal;
